@@ -1,15 +1,12 @@
 ---
 name: ponytail-help
 description: >
-  Quick-reference card for all ponytail modes, skills, and commands.
-  One-shot display, not a persistent mode. Trigger: /ponytail-help,
-  "ponytail help", "what ponytail commands", "how do I use ponytail".
+  Quick-reference card for all ponytail modes, skills, and commands. One-shot display, not a persistent mode. Trigger: /ponytail-help, "ponytail help", "what ponytail commands", "how do I use ponytail".
 ---
 
 # Ponytail Help
 
-Display this reference card when invoked. One-shot, do NOT change mode,
-write flag files, or persist anything.
+Display this reference card when invoked. One-shot, do NOT change mode, write flag files, or persist anything.
 
 ## Levels
 
@@ -32,9 +29,7 @@ Level sticks until changed or session end.
 | **ponytail-gain** | `/ponytail-gain` | Measured-impact scoreboard: less code, less cost, more speed. |
 | **ponytail-help** | `/ponytail-help` | This card. |
 
-Codex uses `@ponytail`, `@ponytail-review`, and `@ponytail-help`; Claude Code
-and OpenCode use the slash-command forms above (OpenCode ships all six as
-slash commands).
+Codex uses `@ponytail`, `@ponytail-review`, and `@ponytail-help`; Claude Code and OpenCode use the slash-command forms above (OpenCode ships all six as slash commands).
 
 ## Deactivate
 
@@ -55,8 +50,7 @@ export PONYTAIL_DEFAULT_MODE=ultra
 { "defaultMode": "lite" }
 ```
 
-Set `"off"` to disable auto-activation on session start, activate manually
-with `/ponytail` when wanted.
+Set `"off"` to disable auto-activation on session start, activate manually with `/ponytail` when wanted.
 
 Resolution: env var > config file > `full`.
 
